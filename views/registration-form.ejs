@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/css/style.css">    <!-- Check path of style.css -->
+  </head>
+  <body>
+    <% if(message) { %>
+      <div class="errorMessage"><p><%=message%></h1></div>
+      <% } %>
+    <div class="text-container">
+      <h3>Registration Form</h3>
+    </div>
+    <div class="form-container">
+      <form class="form-class" action="registration-form" method="post">
+        <input type="text" name="name" placeholder="Name" class="textbox" style="margin-top:0px" required><br>
+        <input type="email" name="email" placeholder="Email" class="textbox" required><br>
+        <input type="password" name="password" placeholder="Password" class="textbox" required><br>
+        <input type="password" name="confirmPassword" placeholder="Confirm Password" required><br>
+        <div class="submitButton-class">
+          <input type="submit" value="Submit" class="submitButton">
+        </div>
+
+      </form>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,54 @@
+body{
+ background-color: rgba(0,100,255, 0.3);
+}
+
+.text-container{
+  font-size: 3.3vw;
+  margin: 1% 25% 0px 25%;
+  text-align: center;
+  color:rgba(255,0,0,0.9);
+}
+
+.form-container{
+  margin: 1% 25% 1% 25%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 3%;
+  border-width: thin;
+  border-radius: 10px;
+}
+
+.form-class{
+  font-size: 1.5vw;
+  text-align: left;
+
+}
+
+input {
+  width: 95.5%;
+  height: 5vh;
+  margin-bottom: 3vh;
+  border-radius: 2px;
+  padding: 0px 2% 0px 2%;
+  border-color: #ff414d;
+  font-size: 100%;
+  font-family: sans-serif;
+  border-width: 0px 0px 2px 0px;
+}
+
+.submitButton{
+  margin-top: 2%;
+  margin-bottom: 0px;
+  width:18%;
+  color:white;
+  background-color:rgba(255,0,0,0.85);
+  font-weight: bold;
+}
+
+.errorMessage{
+  /*background-color: rgba(0, 0, 255, 0.5);*/
+  color:red;
+  font-size: large;
+  text-align: center;
+  margin: 0% 25% 0% 25%;
+  padding: 1px 1px 1px 1px;
+}
